@@ -1,0 +1,83 @@
+<html>
+
+<head>
+
+	<title></title>
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+	<body>
+
+
+		<h1 id="titleH1">Tp Création Personnage</h1>
+
+
+		<div class="wrapper">
+
+			<section id="form" class="block">
+
+			<form action="" id="form-create">
+				<p>
+					<label for="">Nombre de personnages</label>
+					<input type="number" min="1" max="4" id="nb-input" required>
+				</p>
+
+				<p>
+					<label for="">Nom</label>
+					<input type="text" class="charac--name">
+				</p>
+				<p>
+					<label for="">Points de vie</label>
+					<input type="number" min="5" max="150" class="charac--pv" required>
+				</p>
+				<p>
+					<label for="">Attaque</label>
+					<input type="number" min="25" max="150" class="charac--attack" required>
+				</p>
+				<p>
+					<label for="">Défense</label>
+					<input type="number" min="35" max="150" class="charac--defense" required>
+				</p>
+				<p>
+					<select name="" id="" class="charac--details">
+						<option value="hutt">hutt</option>
+						<option value="jedi">jedi</option>
+						<option value="clone">clone</option>
+					</select>
+
+				</p>
+				<p><input type="button" id="submit" value="Créer"></p>
+
+				<!-- <p><input type="button" id="trigger" value="trigger"></p> -->
+			</form>
+
+			<div id="form-play">
+
+			</div>
+
+			<input type="button" id="input-fight" class="btn" value="Combat !">
+
+
+			</section>
+
+
+			<section id="game" class="block">
+
+				<h2>C'est la castagne</h2>
+
+			</section>
+
+
+		</div>
+
+
+
+
+	</body>
+
+	<script type="text/javascript" src="script.js"></script>
+
+
+</html>
